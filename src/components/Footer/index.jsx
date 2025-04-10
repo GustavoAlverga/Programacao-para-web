@@ -15,8 +15,8 @@ export default function Footer() {
                     <Button path={"/blog"}>
                         <Links>Noticias</Links>
                     </Button>
-                    <Button path={"/blank"}>
-                        <Links>Blank</Links>
+                    <Button path={"/eventos"}>
+                        <Links>Eventos</Links>
                     </Button>
                     <div id="redes">
                         <h4>Redes Sociais</h4>
