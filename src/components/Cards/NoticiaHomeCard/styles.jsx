@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
-export const Container = styled.div`
+export const Container = styled(NavLink)`
   position: relative;
   background-color: white;
   display: flex;

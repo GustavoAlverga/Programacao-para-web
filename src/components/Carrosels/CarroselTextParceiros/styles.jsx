@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Carrosel from '../CarroselSwiper';
 
 export const Container = styled.div`
     display: flex;
@@ -9,7 +8,10 @@ export const Container = styled.div`
     height: 20rem;
 `;
 
-export const CarroselImages = styled(Carrosel)`
-    width: fit-content;
-    height: fit-content;
+export const CardTextParceiros = styled.div`
+  width: 150px;
+  height: 150px;
+  background: royalblue;
+  color: white;
+  clip-path: polygon( 50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38% );
 `;

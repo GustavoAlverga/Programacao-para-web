@@ -1,13 +1,13 @@
 import { Container, Image, Informations} from "./styles";
 
-export default function NoticiasCard({path, text}) {
+export default function BlogCard({path, text, link}) {
   return (
-    <Container to={"/blog"}>
+    <Container to={link}>
         <Image>
           <img src = {path} alt="ImageCard"/>
         </Image>
         <Informations>
-            <p>{text}</p>
+            <h2>{text}</h2>
         </Informations>
     </Container>
   );

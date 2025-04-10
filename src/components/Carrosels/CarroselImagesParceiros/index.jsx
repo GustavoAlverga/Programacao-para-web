@@ -1,6 +1,6 @@
-import { Container } from './styles';
+import { Container, CarroselImages } from './styles';
 import CardParceiros from '../../Cards/ParceriasCarroselCard';
-import Carrosel from '../CarroselSwiper';
+
 
 export default function CarouselParceirosPage({ arrayImages }) {
 
@@ -10,7 +10,7 @@ export default function CarouselParceirosPage({ arrayImages }) {
 
   return (
     <Container>
-      <Carrosel cards={cards} />
+      <CarroselImages cards={cards} />
     </Container>
   );
 }
