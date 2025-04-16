@@ -34,25 +34,25 @@ export default function NavBar() {
                 </DropdownButton>
                 
                 <DropdownContent isOpen={isDropdownOpen}>
-                    <LinkComponent to="/colaboradores/criar" onClick={() => setIsDropdownOpen(false)}>
-                        <p>Criar</p>
+                    <LinkComponent to="/parcerias" onClick={() => setIsDropdownOpen(false)}>
+                        <p>Parceiros</p>
                     </LinkComponent>
                     
-                    <LinkComponent to="/colaboradores/editar" onClick={() => setIsDropdownOpen(false)}>
-                        <p>Editar</p>
+                    <LinkComponent to="/servicos" onClick={() => setIsDropdownOpen(false)}>
+                        <p>Serviço</p>
                     </LinkComponent>
                 </DropdownContent>
             </DropdownContainer>
 
-            <LinkComponent to="/colaboradores">
-            <p>Colaboradores</p>
+            <LinkComponent to="/blog">
+            <p>Noticias</p>
             </LinkComponent>
             
             <LinkComponent to="/eventos">
             <p>Eventos</p>
             </LinkComponent>
                 
-            <LinkComponent to="/contato">
+            <LinkComponent to="/faleConosco">
             <p>Contato</p>
             </LinkComponent>
         </Container>
