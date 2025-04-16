@@ -1,5 +1,5 @@
 import { Container, ImageHero, CardsServicoHome, SobreNosHome, SobreNosButtonHome, Line,NoticiasContainer } from "./styles";
-import Image from '/images/homePageImageHero.jpeg';
+import ImageHeroHome from '/images/homePageImageHero.jpeg';
 import ServicoCard from '../../components/Cards/ServicosHomeCard'
 import NoticiaCard from '../../components/Cards/NoticiaHomeCard'
 import { Flex } from "antd";
@@ -18,7 +18,7 @@ export default function Home() {
     return (
         <Container>
             <ImageHero>
-                <img src={Image} alt="ImageHero" />
+                <img src={ImageHeroHome} alt="ImageHero" />
             </ImageHero>
             
             <CardsServicoHome>
