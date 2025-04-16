@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap');
 `;
 
 export const ContainerCarroselHero = styled.div`
@@ -31,7 +31,7 @@ export const ContainerCarroselHero = styled.div`
     border-radius:  0 200px 200px 0;
 
     h1 {
-      font-family: "Rubik", sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: 700;
       font-size: 3rem;
       color: #001c22;
@@ -47,7 +47,7 @@ export const ContainerCarroselHero = styled.div`
     color: #1f9552;
 
     h1 {
-      font-family: "Rubik", sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: 700;
       font-size: 3rem;
       margin: 4rem;
@@ -58,12 +58,12 @@ export const ContainerCarroselHero = styled.div`
 
 export const ContainerText = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 3rem;
   width: 100%;
   align-self: flex-start;
 
-  #fistrtBlockText{
+  #blockText{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,21 +79,31 @@ export const ContainerText = styled.div`
 
     p{
       width: 100%;
-      font-family: "Rubik", sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
       font-weight: 600;
       font-size: 1.3rem;
-      text-indent: 2rem;
+      text-indent: 1.5rem;
       color: #001c22;
+      margin-left: 2rem;
     }
   }
 
-  #secondrtBlockText{
+  #imageContainerText{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;  
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    margin-left: 5rem;
+  
+    img {
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      overflow: hidden;
+      border-radius: 10px;
+    }
   }
 `;
 
@@ -109,14 +119,14 @@ export const FormContainer = styled.div`
 
   h1{
       width: 100%;
-      font-family: "Rubik", sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
       font-weight: 700;
       font-size: 3rem;
       color: #ffffff;
     }
 
     p{
-      font-family: "Rubik", sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
       font-weight: 500;
       font-size: 1.3rem;
       text-indent: 1rem;
